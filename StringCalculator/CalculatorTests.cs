@@ -9,6 +9,7 @@ public class CalculatorTests
         var calculator = new Calculator();
 
         var result = calculator.Add("");
+     
 
         Assert.Equal(0, result);
     }
